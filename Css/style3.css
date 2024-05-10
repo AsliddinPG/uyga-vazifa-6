@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.plan {
+    width: 1400px;
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.price {
+    width: 544px;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Free {
+    width: 460px;
+    height: 377px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.Lite {
+    width: 460px;
+    height: 377px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Enterprise {
+    width: 220px;
+    height: 347px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
